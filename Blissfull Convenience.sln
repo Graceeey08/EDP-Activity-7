@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blissfull Convenience", "Blissfull Convenience\Blissfull Convenience.csproj", "{4F1FC5A3-24C1-4AF8-94EA-90BE1C44D6CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F1FC5A3-24C1-4AF8-94EA-90BE1C44D6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1FC5A3-24C1-4AF8-94EA-90BE1C44D6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1FC5A3-24C1-4AF8-94EA-90BE1C44D6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1FC5A3-24C1-4AF8-94EA-90BE1C44D6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81FF67ED-53A6-4A3D-8176-3967536B015D}
+	EndGlobalSection
+EndGlobal
