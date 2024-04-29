@@ -298,6 +298,7 @@ namespace Blissfull_Convenience
                 connection.Open();
 
                 string productQuery = "SELECT product_id, productname, price, quantity FROM products;"; // accessing product in database
+                //pullrequest
                 string orderQuery = "SELECT YEAR(order_date) AS year, SUM(total_amount) AS total_sales FROM orders GROUP BY YEAR(order_date)"; // accessing order in database
 
                 using (MySqlCommand productCommand = new MySqlCommand(productQuery, connection))// command for product
@@ -306,14 +307,16 @@ namespace Blissfull_Convenience
                     {
                         // Create a new Excel package
                         //editt
-                        ExcelPackage excelPackage = new ExcelPackage(); //using the excel package
+                        ExcelPackage excelPackage = new ExcelPackage(); //using the excel packagews
 
                         // Add a worksheet to the Excel package
                         ExcelWorksheet worksheet_1 = excelPackage.Workbook.Worksheets.Add("Inventory"); //creating first sheet
+
                         ExcelWorksheet worksheet_2 = excelPackage.Workbook.Worksheets.Add("Graphs"); // second sheet
 
                         //for logo 
                         var picture = worksheet_1.Drawings.AddPicture("Logo", new FileInfo("F:\\Downloads\\download-removebg-preview.ico"));//logo of the shop
+
                         // Set the size of the picture
                         picture.SetSize(70, 70); // Set the picture size in pixels
 
