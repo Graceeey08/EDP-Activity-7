@@ -305,6 +305,7 @@ namespace Blissfull_Convenience
                     using (MySqlDataReader productReader = productCommand.ExecuteReader())//reader for product
                     {
                         // Create a new Excel package
+                        //editt
                         ExcelPackage excelPackage = new ExcelPackage(); //using the excel package
 
                         // Add a worksheet to the Excel package
